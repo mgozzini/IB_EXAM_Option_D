@@ -2,6 +2,7 @@
 public class Wagon extends RollingStock{
     private Parcel[] mParcels;
     private int mParcelCount;
+    private int Weight;
 
     public Wagon(int ID){
         super(ID, 32000); // Empty wagon weighs 32000 kilograms
@@ -15,7 +16,11 @@ public class Wagon extends RollingStock{
     }
 
     public double getWeight(){
-// Code to be written
+        for(int i = 0; i<= mParcelCount;i++){
+            Weight+=mParcels[i].getWeight();
+        }
+        Weight = Weight + 32000;
+        return Weight;
     }
 
 // Other methods

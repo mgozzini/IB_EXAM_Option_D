@@ -32,12 +32,18 @@ public class Train {
     }
 
     public Wagon removeWagon(){
-        // Code to be written
+        mWagonCount--;
+        return mWagons[mWagonCount];
     }
 
     public double getWeight(){
-        // Code to be written
+        for(int i = 0; i<= mWagonCount;i++){
+            mWeight+=mWagons[i].getWeight();
+        }
+        for(int k = 0; k<= mEngineCount; k++){
+            mWeight+=mEngines[k].getWeight();
+        }
+        return mWeight;
     }
 
 }
-
