@@ -10,7 +10,11 @@ public class Parcel
         trackingID = ID;
         weight = 0;
     }
-    public void setWeight(double newWeight) { weight = newWeight; }
-    public double getWeight() { return weight; }
+    public void setWeight(double newWeight){
+        weight = newWeight;
+    }
+    public double getWeight(){
+        return weight;
+    }
 }
 

@@ -10,6 +10,7 @@ public class RollingStock{
 
     // Accessor methods
     public double getWeight(){
+
         return mWeight;
     }
 
