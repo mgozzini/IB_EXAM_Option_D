@@ -9,6 +9,7 @@ public class Engine extends RollingStock{
 
     // Accessor methods
     public double getWeight(){
+
         return super.getWeight();
     }
 

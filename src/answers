@@ -1,0 +1,43 @@
+1. The constructor creates new objects with specific parameters
+2. The advantages of Polymorphism is that code can be reused for different purposes, for example the wagons and engines have ids and weights
+4. public void getNumberOfwagons(){
+return mWagonCount;
+}
+5. public Wagon removeWagon(){
+mWagonCount- -;
+return mWagons[mWagonCount];
+}
+6. One advantage of using a standard library collection is that the programmer is able to reuse code without having to rewrite every algorithm out every time.
+7. Programming in a team allows for greater efficiency and more ideas as well as second opinions which working alone does not have. Secondly, programming in a team needs to be more organized to ensure the final product works unlike working alone where you are the only person who needs to know how something works.
+8i. String
+ii. Int
+iii. Boolean
+9. public double getWeight(){
+    for(int i = 0; i<= mParcelCount;i++){
+        Weight+=mParcels[i].getWeight();
+    }
+    Weight = Weight + 32000;
+    return Weight;
+}
+
+11i. [B, new Engine(9)]
+ii. two
+iii. [C, new Wagon(214)]
+12. public double getWeight(){
+    for(int i = 0; i<= mParcelCount;i++){
+        Weight+=mParcels[i].getWeight();
+    }
+    Weight = Weight + 32000;
+    return Weight;
+}
+13. public double getWeight(){
+    for(int i = 0; i<= mWagonCount;i++){
+        mWeight+=mWagons[i].getWeight();
+    }
+    for(int k = 0; k<= mEngineCount; k++){
+        mWeight+=mEngines[k].getWeight();
+    }
+    return mWeight;
+}
+
+14. the Train class does not inherit from the RollingStock class because the method is called within the class.

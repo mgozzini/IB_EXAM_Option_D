@@ -10,6 +10,6 @@ public class Runner {
         Wagon E = new Wagon(71);
         A.addWagon(E);
         A.addEngine(new Engine(9));
-        System.out.println(A.);
+        System.out.println("hi");
     }
 }

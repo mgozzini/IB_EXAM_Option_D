@@ -46,4 +46,7 @@ public class Train {
         return mWeight;
     }
 
+    public int getNumberofWagons(){
+        return mWagonCount;
+    }
 }
